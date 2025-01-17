@@ -1,0 +1,52 @@
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: orangered;
+    color: #fff;
+  }
+
+  button{
+    background-color: #333;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 50px;
+  }
+
+  section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  p{
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  input{
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+  }
+
+ /* Left Column */
+.parteIZQ {
+    width: 70%; /* 70% de ancho del padre */
+    float: left;
+    padding: 10px;
+    }
+    /* Right Column */
+    .parteDER {
+    width: 30%; /* 30% de ancho del padre */
+    float: right;
+    background-color: lightgreen;
+    padding: 10px;
+    }
+    /* Clearfix para contener elementos flotantes */
+    .clearfix::after {
+    content: "";
+    display: table;
+    }
